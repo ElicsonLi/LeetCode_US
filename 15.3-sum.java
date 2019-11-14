@@ -17,6 +17,12 @@ class Solution {
             if(i > 0 && nums[i] == nums[i - 1]){
                 continue;
             }
+            // if(3 * nums[i] > 0){
+            //     break;
+            // }
+            // if(nums[i] + nums[nums.length - 1] * 2 < 0){
+            //     continue;
+            // }
             int p1 = i + 1;
             int p2 = nums.length - 1;
             while(p1 < p2){
